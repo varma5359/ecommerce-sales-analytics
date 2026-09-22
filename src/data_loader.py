@@ -4,6 +4,34 @@
 # Simple and easy to understand.
 # ============================================================
 
+'''
+User / Application
+       |
+       v
+   load_data()
+       |
+       +--------------------+
+       |                    |
+       v                    v
+Uploaded File          Default CSV
+       |                    |
+       v                    v
+load_uploaded_data()  load_default_data()
+       |                    |
+       +---------+----------+
+                 |
+                 v
+              DataFrame
+                 |
+       +---------+---------+
+       |                   |
+       v                   v
+find_missing_columns()  preview_dataframe()
+       |
+       v
+Validation
+
+'''
 import pandas as pd
 import streamlit as st
 
