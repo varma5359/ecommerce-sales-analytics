@@ -1,9 +1,13 @@
 # Data Quality Report
 
 **Project:** E-Commerce Sales Performance & Customer Analytics
+
 **Version:** 1.0
+
 **Report Type:** Data Quality Assessment
+
 **Prepared by:** Business Analyst
+
 **Date:** 2026
 
 ---
