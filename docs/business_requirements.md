@@ -1,9 +1,13 @@
 # Business Requirements Document (BRD)
 
 **Project:** E-Commerce Sales Performance & Customer Analytics
+
 **Role:** Business Analyst
+
 **Version:** 1.0
+
 **Date:** 2026
+
 **Status:** Approved for Development
 
 ---
