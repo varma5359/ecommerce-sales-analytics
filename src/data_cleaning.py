@@ -12,7 +12,7 @@
 # ============================================================
 
 import pandas as pd
-from config import (
+from config.config import (
     CRITICAL_COLUMNS, NUMERIC_COLUMNS, TEXT_COLUMNS, DATE_COLUMNS,
     MIN_QUANTITY, MIN_UNIT_PRICE, MIN_DISCOUNT, MAX_DISCOUNT,
 )

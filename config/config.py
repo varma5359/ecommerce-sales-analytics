@@ -62,6 +62,30 @@ CATEGORICAL_COLUMNS = [
 ]
 
 
+# Columns that must have valid values for a row to be useful
+CRITICAL_COLUMNS = [
+    "order_id",
+    "order_date",
+    "customer_id",
+    "product_id",
+    "sales",
+]
+
+# Text columns used during cleaning
+TEXT_COLUMNS = [
+    "category",
+    "region",
+    "product_name",
+    "customer_id",
+]
+
+# Date columns
+DATE_COLUMNS = [
+    "order_date",
+]
+
+
+
 # ------------------------------------------------------------
 # 4. DATA RULES
 # ------------------------------------------------------------
